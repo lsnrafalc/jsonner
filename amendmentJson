@@ -1,0 +1,365 @@
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"
+            xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <S:Body xmlns="http://schemas.datacontract.org/2004/07/EApplicationWs"
+            xmlns:ns3="http://tempuri.org/">
+        <ns3:SubmitObject>
+            <ns3:iQuotation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <Addresses>
+                    <Address>
+                        <AddressSerialNumber>1</AddressSerialNumber>
+                        <AddressType>5</AddressType>
+                        <City>ΑΘΗΝΑ</City>
+                        <Country>GR</Country>
+                        <Disrtict>ΑΤΤΙΚΗ</Disrtict>
+                        <PersonSerialNumber>2</PersonSerialNumber>
+                        <PhoneLandLine>2109292999</PhoneLandLine>
+                        <PhoneMobile xsi:nil="true"/>
+                        <PostalCode>10563</PostalCode>
+                        <StreetName>ΜΗΤΡΟΠΟΛΕΩΣ</StreetName>
+                        <StreetNumber>10</StreetNumber>
+                    </Address>
+                    <Address>
+                        <AddressSerialNumber>2</AddressSerialNumber>
+                        <AddressType>5</AddressType>
+                        <City>ΑΘΗΝΑΙΩΝ</City>
+                        <Country>GR</Country>
+                        <Disrtict>ΑΤΤΙΚΗΣ</Disrtict>
+                        <PersonSerialNumber>1</PersonSerialNumber>
+                        <PhoneLandLine>2111844374</PhoneLandLine>
+                        <PhoneMobile>6974085628</PhoneMobile>
+                        <PostalCode>11144</PostalCode>
+                        <StreetName>ΣΒΟΡΩΝΟΥ</StreetName>
+                        <StreetNumber>7-9</StreetNumber>
+                    </Address>
+                </Addresses>
+                <Amendments xsi:nil="true"/>
+                <ApplicationNumber>70052021</ApplicationNumber>
+                <ApplicationNumberExtra>18/08351382</ApplicationNumberExtra>
+                <ApplicationQuotationNotes xsi:nil="true"/>
+                <ApplyModificationFlag>false</ApplyModificationFlag>
+                <BankBranchCode>2011</BankBranchCode>
+                <BankBranchName>MW Departament</BankBranchName>
+                <BankBranchPlace>Location Lorem</BankBranchPlace>
+                <BankEmployeeCertifiedCode>martaw</BankEmployeeCertifiedCode>
+                <BankEmployeeCertifiedName>Marta Wereszczynska</BankEmployeeCertifiedName>
+                <BankEmployeeID>rafalt</BankEmployeeID>
+                <CampaignCode></CampaignCode>
+                <CancellationReason xsi:nil="true"/>
+                <Clients>
+                    <Person>
+                        <AcceptedGdpr xsi:nil="true"/>
+                        <AcceptedMarketingPromos xsi:nil="true"/>
+                        <BMI xsi:nil="true"/>
+                        <BankClientNumber></BankClientNumber>
+                        <BeneficiaryLevel xsi:nil="true"/>
+                        <BeneficiaryPercentage xsi:nil="true"/>
+                        <BirthDate_YYYYMMDD>19821026</BirthDate_YYYYMMDD>
+                        <CitizenShip/>
+                        <ClientType>Φ</ClientType>
+                        <CorporationName xsi:nil="true"/>
+                        <CountryofOrigin>GR</CountryofOrigin>
+                        <CreditCard xsi:nil="true"/>
+                        <Email>agiovlasitir@piraeusbank.gr</Email>
+                        <FathersName>ΠΑΝΟΣ</FathersName>
+                        <FirstName>ΤΕΡΕΖΑ</FirstName>
+                        <GdprType>0</GdprType>
+                        <Gender>F</Gender>
+                        <HeightCentimeters xsi:nil="true"/>
+                        <IBAN>GR1301720490005049023743156</IBAN>
+                        <IdentificationNumber>123456</IdentificationNumber>
+                        <IdentificationType xsi:nil="true"/>
+                        <IsChanged xsi:nil="true"/>
+                        <IsExclusiveEcommunication xsi:nil="true"/>
+                        <IsLegalRepresentative xsi:nil="true"/>
+                        <LastName>ΛΑΛΑΙΑ</LastName>
+                        <LeisureFrequency xsi:nil="true"/>
+                        <LeisureHobbies xsi:nil="true"/>
+                        <LeisureSports xsi:nil="true"/>
+                        <MedicalQuestions xsi:nil="true"/>
+                        <NBSQuestions xsi:nil="true"/>
+                        <Nationality>115</Nationality>
+                        <NelisClientNumber>02062043</NelisClientNumber>
+                        <OccupationMain>0460</OccupationMain>
+                        <OccupationMainComments xsi:nil="true"/>
+                        <OccupationSecondary xsi:nil="true"/>
+                        <OccupationSecondaryComments xsi:nil="true"/>
+                        <PPBankBranch xsi:nil="true"/>
+                        <PPBankName xsi:nil="true"/>
+                        <PPCreditCardExpirationDate xsi:nil="true"/>
+                        <PPCreditCardType xsi:nil="true"/>
+                        <PercentageBMI xsi:nil="true"/>
+                        <PercentageOccupation xsi:nil="true"/>
+                        <PersonSerialNumber>2</PersonSerialNumber>
+                        <PhoneMobile>6999999999</PhoneMobile>
+                        <RelationToTheInsured xsi:nil="true"/>
+                        <SocialSecurityNumber xsi:nil="true"/>
+                        <TaxRecordsNumber>000000097</TaxRecordsNumber>
+                        <UnderwrittingCompleted xsi:nil="true"/>
+                        <WeightKilogramms xsi:nil="true"/>
+                        <isBeneficiary>N</isBeneficiary>
+                        <isBeneficiaryLegalHeirs>N</isBeneficiaryLegalHeirs>
+                        <isContracting>N</isContracting>
+                        <isMainInsured>Y</isMainInsured>
+                        <isSecondaryInsured>N</isSecondaryInsured>
+                    </Person>
+                    <Person>
+                        <AcceptedGdpr xsi:nil="true"/>
+                        <AcceptedMarketingPromos xsi:nil="true"/>
+                        <BMI xsi:nil="true"/>
+                        <BankClientNumber xsi:nil="true"/>
+                        <BeneficiaryLevel>K</BeneficiaryLevel>
+                        <BeneficiaryPercentage>100.00</BeneficiaryPercentage>
+                        <BirthDate_YYYYMMDD>19970610</BirthDate_YYYYMMDD>
+                        <CitizenShip xsi:nil="true"/>
+                        <ClientType>Φ</ClientType>
+                        <CorporationName xsi:nil="true"/>
+                        <CountryofOrigin xsi:nil="true"/>
+                        <CreditCard xsi:nil="true"/>
+                        <Email xsi:nil="true"/>
+                        <FathersName>KAROL</FathersName>
+                        <FirstName>KAROL</FirstName>
+                        <GdprType>0</GdprType>
+                        <Gender>F</Gender>
+                        <HeightCentimeters xsi:nil="true"/>
+                        <IBAN xsi:nil="true"/>
+                        <IdentificationNumber xsi:nil="true"/>
+                        <IdentificationType xsi:nil="true"/>
+                        <IsChanged xsi:nil="true"/>
+                        <IsExclusiveEcommunication xsi:nil="true"/>
+                        <IsLegalRepresentative xsi:nil="true"/>
+                        <LastName>ΛΑΛΑΙΑ</LastName>
+                        <LeisureFrequency xsi:nil="true"/>
+                        <LeisureHobbies xsi:nil="true"/>
+                        <LeisureSports xsi:nil="true"/>
+                        <MedicalQuestions xsi:nil="true"/>
+                        <NBSQuestions xsi:nil="true"/>
+                        <Nationality xsi:nil="true"/>
+                        <NelisClientNumber>02062044</NelisClientNumber>
+                        <OccupationMain xsi:nil="true"/>
+                        <OccupationMainComments xsi:nil="true"/>
+                        <OccupationSecondary xsi:nil="true"/>
+                        <OccupationSecondaryComments xsi:nil="true"/>
+                        <PPBankBranch xsi:nil="true"/>
+                        <PPBankName xsi:nil="true"/>
+                        <PPCreditCardExpirationDate xsi:nil="true"/>
+                        <PPCreditCardType xsi:nil="true"/>
+                        <PercentageBMI xsi:nil="true"/>
+                        <PercentageOccupation xsi:nil="true"/>
+                        <PersonSerialNumber>3</PersonSerialNumber>
+                        <PhoneMobile xsi:nil="true"/>
+                        <RelationToTheInsured>MO</RelationToTheInsured>
+                        <SocialSecurityNumber xsi:nil="true"/>
+                        <TaxRecordsNumber>999999999</TaxRecordsNumber>
+                        <UnderwrittingCompleted xsi:nil="true"/>
+                        <WeightKilogramms xsi:nil="true"/>
+                        <isBeneficiary>Y</isBeneficiary>
+                        <isBeneficiaryLegalHeirs>N</isBeneficiaryLegalHeirs>
+                        <isContracting>N</isContracting>
+                        <isMainInsured>N</isMainInsured>
+                        <isSecondaryInsured>N</isSecondaryInsured>
+                    </Person>
+                    <Person>
+                        <AcceptedMarketingPromos>N</AcceptedMarketingPromos>
+                        <BirthDate_YYYYMMDD>19800110</BirthDate_YYYYMMDD>
+                        <CitizenShip xsi:nil="true"/>
+                        <ClientType>Φ</ClientType>
+                        <CountryofOrigin>GR</CountryofOrigin>
+                        <Email>a@pira.tt</Email>
+                        <FathersName>ΠΕΓΚΟΥ</FathersName>
+                        <FirstName>ΑΜΕΡΙΚΑΑΑ</FirstName>
+                        <Gender>F</Gender>
+                        <IBAN xsi:nil="true"/>
+                        <IdentificationNumber>ΑΒ507065</IdentificationNumber>
+                        <IsExclusiveEcommunication>Y</IsExclusiveEcommunication>
+                        <LastName>MARTIROSOVA</LastName>
+                        <Nationality>000</Nationality>
+                        <OccupationMain>0529</OccupationMain>
+                        <PPBankBranch>2011</PPBankBranch>
+                        <PPBankName>ΤΡΑΠΕΖΑ ΠΕΙΡΑΙΩΣ</PPBankName>
+                        <PersonSerialNumber>1</PersonSerialNumber>
+                        <PhoneMobile>6974085628</PhoneMobile>
+                        <RelationToTheInsured>RE</RelationToTheInsured>
+                        <TaxRecordsNumber>103106141</TaxRecordsNumber>
+                        <isBeneficiary>N</isBeneficiary>
+                        <isBeneficiaryLegalHeirs>N</isBeneficiaryLegalHeirs>
+                        <isContracting>Y</isContracting>
+                        <isMainInsured>N</isMainInsured>
+                        <isSecondaryInsured>N</isSecondaryInsured>
+                    </Person>
+                </Clients>
+                <Comments xsi:nil="true"/>
+                <ContinuityTermFlag xsi:nil="true"/>
+                <ContractNumber>08351382</ContractNumber>
+                <ContractStatusCode>IF</ContractStatusCode>
+                <ContractStatusDescription xsi:nil="true"/>
+                <Coverages>
+                    <Coverage>
+                        <AnnualGrFund xsi:nil="true"/>
+                        <AnnualPremium xsi:nil="true"/>
+                        <AnnualTax xsi:nil="true"/>
+                        <Annuity>0</Annuity>
+                        <BenCessAge>0</BenCessAge>
+                        <BenCessTerm>15</BenCessTerm>
+                        <CoverageAction xsi:nil="true"/>
+                        <CoverageCode>MCG3</CoverageCode>
+                        <CoverageSerialNumber>1</CoverageSerialNumber>
+                        <Deferm>0</Deferm>
+                        <GrFund>0.67</GrFund>
+                        <GuarPens>0.00</GuarPens>
+                        <InitialGrFund xsi:nil="true"/>
+                        <InitialPremium xsi:nil="true"/>
+                        <InitialTax xsi:nil="true"/>
+                        <LifeSerialNumber>2</LifeSerialNumber>
+                        <PolFee>0.00</PolFee>
+                        <PolFeeGrf>0.00</PolFeeGrf>
+                        <PolFeeTax>0.00</PolFeeTax>
+                        <PremCessAge>0</PremCessAge>
+                        <PremCessTerm>15</PremCessTerm>
+                        <Premium>200.00</Premium>
+                        <RiderCode/>
+                        <RiderSerialNumber>0</RiderSerialNumber>
+                        <RiskCessAge>0</RiskCessAge>
+                        <RiskCessTerm>15</RiskCessTerm>
+                        <StampDuty>0.00</StampDuty>
+                        <Sumins>200.00</Sumins>
+                        <Tax>0.00</Tax>
+                        <Term>15</Term>
+                        <WhoIlPen>0.00</WhoIlPen>
+                    </Coverage>
+                    <Coverage>
+                        <AnnualGrFund xsi:nil="true"/>
+                        <AnnualPremium xsi:nil="true"/>
+                        <AnnualTax xsi:nil="true"/>
+                        <Annuity>0</Annuity>
+                        <BenCessAge>0</BenCessAge>
+                        <BenCessTerm>15</BenCessTerm>
+                        <CoverageAction xsi:nil="true"/>
+                        <CoverageCode>WPL9</CoverageCode>
+                        <CoverageSerialNumber>2</CoverageSerialNumber>
+                        <Deferm>0</Deferm>
+                        <GrFund>0.01</GrFund>
+                        <GuarPens>0.00</GuarPens>
+                        <InitialGrFund xsi:nil="true"/>
+                        <InitialPremium xsi:nil="true"/>
+                        <InitialTax xsi:nil="true"/>
+                        <LifeSerialNumber>2</LifeSerialNumber>
+                        <PolFee>0.00</PolFee>
+                        <PolFeeGrf>0.00</PolFeeGrf>
+                        <PolFeeTax>0.00</PolFeeTax>
+                        <PremCessAge>0</PremCessAge>
+                        <PremCessTerm>15</PremCessTerm>
+                        <Premium>1.81</Premium>
+                        <RiderCode>WPL9</RiderCode>
+                        <RiderSerialNumber>0</RiderSerialNumber>
+                        <RiskCessAge>0</RiskCessAge>
+                        <RiskCessTerm>15</RiskCessTerm>
+                        <StampDuty>0.00</StampDuty>
+                        <Sumins>2411.52</Sumins>
+                        <Tax>0.27</Tax>
+                        <Term>15</Term>
+                        <WhoIlPen>0.00</WhoIlPen>
+                    </Coverage>
+                    <Coverage>
+                        <AnnualGrFund xsi:nil="true"/>
+                        <AnnualPremium xsi:nil="true"/>
+                        <AnnualTax xsi:nil="true"/>
+                        <Annuity>0</Annuity>
+                        <BenCessAge>0</BenCessAge>
+                        <BenCessTerm>15</BenCessTerm>
+                        <CoverageAction xsi:nil="true"/>
+                        <CoverageCode>TT08</CoverageCode>
+                        <CoverageSerialNumber>3</CoverageSerialNumber>
+                        <Deferm>0</Deferm>
+                        <GrFund>0.01</GrFund>
+                        <GuarPens>0.00</GuarPens>
+                        <InitialGrFund xsi:nil="true"/>
+                        <InitialPremium xsi:nil="true"/>
+                        <InitialTax xsi:nil="true"/>
+                        <LifeSerialNumber>2</LifeSerialNumber>
+                        <PolFee>0.00</PolFee>
+                        <PolFeeGrf>0.00</PolFeeGrf>
+                        <PolFeeTax>0.00</PolFeeTax>
+                        <PremCessAge>0</PremCessAge>
+                        <PremCessTerm>15</PremCessTerm>
+                        <Premium>0.96</Premium>
+                        <RiderCode>TT08</RiderCode>
+                        <RiderSerialNumber>0</RiderSerialNumber>
+                        <RiskCessAge>0</RiskCessAge>
+                        <RiskCessTerm>15</RiskCessTerm>
+                        <StampDuty>0.00</StampDuty>
+                        <Sumins>7000.00</Sumins>
+                        <Tax>0.00</Tax>
+                        <Term>15</Term>
+                        <WhoIlPen>0.00</WhoIlPen>
+                    </Coverage>
+                </Coverages>
+                <DebitAmmountDue xsi:nil="true"/>
+                <DocumentNumber xsi:nil="true"/>
+                <FATCAQuestions>
+                    <FATCAQuestion>
+                        <FATCAQuestion xsi:nil="true"/>
+                        <FATCAQuestionAnswer>N</FATCAQuestionAnswer>
+                        <FATCAQuestionComments xsi:nil="true"/>
+                        <FATCAQuestionSequencecode>1</FATCAQuestionSequencecode>
+                        <PersonSerialNumber>1</PersonSerialNumber>
+                    </FATCAQuestion>
+                    <FATCAQuestion>
+                        <FATCAQuestion xsi:nil="true"/>
+                        <FATCAQuestionAnswer xsi:nil="true"/>
+                        <FATCAQuestionComments xsi:nil="true"/>
+                        <FATCAQuestionSequencecode>2</FATCAQuestionSequencecode>
+                        <PersonSerialNumber>2</PersonSerialNumber>
+                    </FATCAQuestion>
+                </FATCAQuestions>
+                <FatcaUnderwritingCompleted xsi:nil="true"/>
+                <FinacialUnderwritingCompleted xsi:nil="true"/>
+                <FunctionSubmit>19</FunctionSubmit>
+                <Funds xsi:nil="true"/>
+                <GATCAQuestions>
+                    <GATCAQuestion>
+                        <GATCAQuestion xsi:nil="true"/>
+                        <GATCAQuestionAnswer>N</GATCAQuestionAnswer>
+                        <GATCAQuestionComments/>
+                        <GATCAQuestionSequencecode>1</GATCAQuestionSequencecode>
+                        <PersonSerialNumber>1</PersonSerialNumber>
+                    </GATCAQuestion>
+                    <GATCAQuestion>
+                        <GATCAQuestion xsi:nil="true"/>
+                        <GATCAQuestionAnswer xsi:nil="true"/>
+                        <GATCAQuestionComments/>
+                        <GATCAQuestionSequencecode>2</GATCAQuestionSequencecode>
+                        <PersonSerialNumber>2</PersonSerialNumber>
+                    </GATCAQuestion>
+                </GATCAQuestions>
+                <GetPolicyPDF xsi:nil="true"/>
+                <GrossPremium>203.73</GrossPremium>
+                <GrossPremiumAnnual xsi:nil="true"/>
+                <HasContractECommunicationFlag>false</HasContractECommunicationFlag>
+                <Indexation>00</Indexation>
+                <IndexationIncludeRefusal xsi:nil="true"/>
+                <InsuranceStartDate_YYYYMMDD>20201222</InsuranceStartDate_YYYYMMDD>
+                <InvestmentAmount xsi:nil="true"/>
+                <Notes xsi:nil="true"/>
+                <PaymentCode>10083513820088888883</PaymentCode>
+                <PaymentFrequency>12</PaymentFrequency>
+                <PaymentMethod>D</PaymentMethod>
+                <PostageAddressIfOther xsi:nil="true"/>
+                <PostageAddressType xsi:nil="true"/>
+                <PrintoutDocument>false</PrintoutDocument>
+                <Product>MG3</Product>
+                <ProportionalData xsi:nil="true"/>
+                <ReturnFiles xsi:nil="true"/>
+                <ReturnStatus>0</ReturnStatus>
+                <ReturnStatusMessage xsi:nil="true"/>
+                <SpecialRequests xsi:nil="true"/>
+                <SpecialTerms/>
+                <SubmittingPassword xsi:nil="true"/>
+                <SubmittingSystem>MCPPI_PEIRAIOS</SubmittingSystem>
+                <UnderwritingModificationCompletedFlag xsi:nil="true"/>
+                <UnderwritingStatus xsi:nil="true"/>
+                <UnderwritingStatusMessage xsi:nil="true"/>
+            </ns3:iQuotation>
+        </ns3:SubmitObject>
+    </S:Body>
+</S:Envelope>
